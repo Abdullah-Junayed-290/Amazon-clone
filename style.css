@@ -22,10 +22,9 @@
 
 .logo {
   background-image: url("/images/amazon_logo.png");
-  width: 110%;
+  width: 120%;
   height: 100%;
   background-size: cover;
-  margin-left: 8px;
 }
 
 .border {
@@ -148,20 +147,31 @@
 
 .panel-all i {
   margin-right: 7px;
-  
 }
 
 .penal-options p {
   display: inline;
   margin-left: 15px;
+  padding: 5px;
 }
 
-.penal-options  {
+.penal-options {
   width: 70%;
   font-size: 0.85rem;
+  padding: 5px;
 }
 
-.penal-deals{
+.penal-deals {
   font-size: 0.90rem;
   font-weight: 700;
+}
+
+.main-content {}
+
+.hero-section {
+  background-size: cover;
+}
+
+.hero-image {
+  width: 100%;
 }
