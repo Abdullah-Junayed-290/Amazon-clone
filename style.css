@@ -131,3 +131,37 @@
   font-weight: 700;
 }
 
+.panel {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #222f3d;
+  color: #fff;
+  height: 40px;
+  width: 100%;
+}
+
+.panel-all {
+  display: flex;
+  margin-right: 30px;
+}
+
+.panel-all i {
+  margin-right: 7px;
+  
+}
+
+.penal-options p {
+  display: inline;
+  margin-left: 15px;
+}
+
+.penal-options  {
+  width: 70%;
+  font-size: 0.85rem;
+}
+
+.penal-deals{
+  font-size: 0.90rem;
+  font-weight: 700;
+}
