@@ -166,12 +166,28 @@
   font-weight: 700;
 }
 
-.main-content {}
-
-.hero-section {
-  background-size: cover;
+.main-content {
+  
 }
 
-.hero-image {
-  width: 100%;
+.hero-section {
+  background-image: url("./images/hero_image.jpg");
+  height: 600px;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text {
+  background-color: white;
+  height: 50px;
+  margin: 20px;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 0.85rem;
+}
+
+.hero-text a {
+  color: #007185;
 }
