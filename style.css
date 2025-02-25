@@ -172,17 +172,18 @@
 
 .hero-section {
   background-image: url("./images/hero_image.jpg");
-  height: 600px;
-  background-size: contain;
+  height: 330px;
+  background-size: cover;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .hero-text {
   background-color: white;
   height: 50px;
-  margin: 20px;
+  width: 900px;
+  margin-bottom: 35px;
   border-radius: 5px;
   padding: 10px;
   font-size: 0.85rem;
@@ -190,4 +191,22 @@
 
 .hero-text a {
   color: #007185;
+}
+
+.shop-box {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #e2e7e6;
+  
+}
+
+.box {
+  border: 2px solid black;
+  height: 400px;
+  width: 23%;
+}
+
+.box-image {
+  background-image: url("./images/box1_image.jpg");
+  height: 300px;
 }
